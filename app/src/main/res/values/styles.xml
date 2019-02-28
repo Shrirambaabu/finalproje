@@ -17,4 +17,34 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.FullScreenWindow">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/titillium_regular</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:typeface">serif</item>
+        <item name="android:fontFamily">@font/titillium_regular</item>
+        <item name="colorPrimary">@color/colorDeepBlue</item>
+        <item name="colorPrimaryDark">@color/colorDeepBlue</item>
+        <item name="colorAccent">@color/colorDeepBlue</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionModeBackground">@color/colorDeepBlue</item>
+        <item name="actionModeBackground">@color/colorDeepBlue</item>
+
+    </style>
+
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Parent theme sets colorControlNormal to textColorPrimary. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
 </resources>
