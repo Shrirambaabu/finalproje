@@ -1,14 +1,18 @@
-package com.project.finalyear;
+package com.project.finalyear.activity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.project.finalyear.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -21,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.drawer_layout)
     DrawerLayout mDrawerLayout;
+
+    @BindView(R.id.card_one)
+    CardView cardOne;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +55,22 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.close)
     public void closeDrawer() {
         mDrawerLayout.closeDrawer(GravityCompat.START);
+    }
+
+    @OnClick(R.id.card_one)
+    public void cardOne() {
+        Intent intent=new Intent(getApplicationContext(),SampleDetailsActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
+    }
+
+    @OnClick(R.id.card_two)
+    public void cardTwo() {
+        Intent intent=new Intent(getApplicationContext(),SampleDetailsActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
     }
 
     @Override

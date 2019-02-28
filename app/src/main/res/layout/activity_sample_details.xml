@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SampleDetailsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient_basic"
+            android:theme="@style/ThemeOverlay.MyApp.ActionBar" />
+
+
+        <TextView
+            android:id="@+id/text_one"
+            android:layout_below="@+id/toolbar"
+            android:lineSpacingExtra="4dp"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Engineering is a vast and growing field comprising of several branches of operation, one of which is health and safety engineering. It is also known as safety engineering and focuses on the safety of products and processes in a working environment. A health and safety engineer is responsible for developing new solutions to identify and minimize potential threats or risks. In order to carry out his/her job responsibilities effectively, the engineer must be educated, experienced and highly trained.
+The job of health and safety engineers requires meticulous planning and implementation of safety programs to prevent unsafe working condition. These engineers generally work with various organizations for designing and installing safety devices. Such engineers use their knowledge in prevention of disease or injury, or any kind of damage to the property."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
