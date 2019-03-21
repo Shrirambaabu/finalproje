@@ -12,10 +12,14 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.BlastingHomeActivity"
+            android:label="Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"/>
         <activity
             android:name=".activity.SplashScreenActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -32,12 +36,15 @@
             android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme">
-           <!-- <intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
     </application>
 

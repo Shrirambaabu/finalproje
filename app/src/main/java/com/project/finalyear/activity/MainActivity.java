@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.card_one)
     public void cardOne() {
-        Intent intent=new Intent(getApplicationContext(),SampleDetailsActivity.class);
+        Intent intent=new Intent(getApplicationContext(),BlastingHomeActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
