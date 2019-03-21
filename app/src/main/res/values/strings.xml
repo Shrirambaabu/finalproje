@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SSRA</string>
+    <string name="full_name_app">Ship Safety Risk Assessment</string>
+
 </resources>
