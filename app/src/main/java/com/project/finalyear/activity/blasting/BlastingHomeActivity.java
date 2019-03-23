@@ -1,4 +1,4 @@
-package com.project.finalyear.activity.blasting.autoblasting;
+package com.project.finalyear.activity.blasting;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
@@ -8,11 +8,9 @@ import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 
 import com.project.finalyear.R;
-import com.project.finalyear.activity.blasting.BlastingHomeActivity;
-import com.project.finalyear.activity.blasting.autoblasting.hazards.LiftingActivity;
-import com.project.finalyear.activity.blasting.autoblasting.hazards.MaintainanceActivity;
-import com.project.finalyear.activity.blasting.autoblasting.hazards.SettingUpActivity;
-import com.project.finalyear.activity.blasting.autoblasting.hazards.SprayMaterialActivity;
+import com.project.finalyear.activity.MainActivity;
+import com.project.finalyear.activity.blasting.abbrasive.AbrasiveBlastingActivity;
+import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,22 +18,27 @@ import butterknife.OnClick;
 
 import static com.project.finalyear.utils.Utils.backButtonOnToolbar;
 
-public class AutoBlastingActivity extends AppCompatActivity {
+public class BlastingHomeActivity extends AppCompatActivity {
 
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @BindView(R.id.step_one_card)
-    CardView liftingCardView;
+
+    @BindView(R.id.auto_blasting_card)
+    CardView autoBlastingCardView;
+
+    @BindView(R.id.rock_blasting_card)
+    CardView rockBlastingCardView;
+
+    @BindView(R.id.abbrasive_blasting_card)
+    CardView abbrasiveBlastingCardView;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auto_blasting);
-
-
+        setContentView(R.layout.activity_blasting_home);
         ButterKnife.bind(this);
 
 
@@ -56,9 +59,11 @@ public class AutoBlastingActivity extends AppCompatActivity {
     }
 
 
+
     @Override
     public boolean onSupportNavigateUp() {
-        Intent intent = new Intent(getApplicationContext(), BlastingHomeActivity.class);
+
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
@@ -70,38 +75,29 @@ public class AutoBlastingActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
-        Intent intent = new Intent(getApplicationContext(), BlastingHomeActivity.class);
+
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
     }
 
-    @OnClick(R.id.step_one_card)
-    public void lifitingCard() {
-        Intent intent = new Intent(getApplicationContext(), LiftingActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
-    }
 
-    @OnClick(R.id.step_two_card)
-    public void settingCard() {
-        Intent intent = new Intent(getApplicationContext(), SettingUpActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
-    }
+    @OnClick(R.id.auto_blasting_card)
+    public void autoBlasting(){
 
-    @OnClick(R.id.step_three_card)
-    public void sprayCard() {
-        Intent intent = new Intent(getApplicationContext(), SprayMaterialActivity.class);
+        Intent intent=new Intent(getApplicationContext(), AutoBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
-    }
 
-    @OnClick(R.id.step_four_card)
-    public void maintainanceCard() {
-        Intent intent = new Intent(getApplicationContext(), MaintainanceActivity.class);
+    }
+    @OnClick(R.id.abbrasive_blasting_card)
+    public void abrasiveBlasting(){
+
+        Intent intent=new Intent(getApplicationContext(), AbrasiveBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
     }
 }

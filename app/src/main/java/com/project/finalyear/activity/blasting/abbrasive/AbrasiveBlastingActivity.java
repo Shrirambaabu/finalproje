@@ -1,50 +1,34 @@
-package com.project.finalyear.activity;
+package com.project.finalyear.activity.blasting.abbrasive;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 
 import com.project.finalyear.R;
-import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
+import com.project.finalyear.activity.blasting.BlastingHomeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 import static com.project.finalyear.utils.Utils.backButtonOnToolbar;
 
-public class BlastingHomeActivity extends AppCompatActivity {
-
+public class AbrasiveBlastingActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-
-    @BindView(R.id.auto_blasting_card)
-    CardView autoBlastingCardView;
-
-    @BindView(R.id.rock_blasting_card)
-    CardView rockBlastingCardView;
-
-    @BindView(R.id.abbrasive_blasting_card)
-    CardView abbrasiveBlastingCardView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blasting_home);
+        setContentView(R.layout.activity_abrasive_blasting);
         ButterKnife.bind(this);
 
 
         backButtonOnToolbar(this);
         setupToolbar();
-
     }
-
 
     private void setupToolbar() {
         setSupportActionBar(toolbar);
@@ -56,12 +40,9 @@ public class BlastingHomeActivity extends AppCompatActivity {
         }
     }
 
-
-
     @Override
     public boolean onSupportNavigateUp() {
-
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        Intent intent = new Intent(getApplicationContext(), BlastingHomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
@@ -73,19 +54,8 @@ public class BlastingHomeActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
-
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        Intent intent = new Intent(getApplicationContext(), BlastingHomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
-
-    }
-
-
-    @OnClick(R.id.auto_blasting_card)
-    public void autoBlasting(){
-
-        Intent intent=new Intent(getApplicationContext(), AutoBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 

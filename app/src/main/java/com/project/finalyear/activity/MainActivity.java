@@ -2,9 +2,6 @@ package com.project.finalyear.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.project.finalyear.R;
+import com.project.finalyear.activity.blasting.BlastingHomeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

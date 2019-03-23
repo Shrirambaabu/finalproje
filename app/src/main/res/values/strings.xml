@@ -42,5 +42,14 @@
     <string name="use_qualified_welder_fitters">Use Qualified welder,Fitters</string>
     <string name="use_proper_tools">Use proper tools</string>
     <string name="hotwork_to_be_kept_clear_of_flammable_and_combustible">Hotwork to be kept clear of flammable and combustible</string>
+    <string name="abrasive_blasting_def">Abrasive blasting is the operation of forcibly propelling a stream of abrasive material against a surface under high pressure to smooth a rough surface, roughen a smooth surface, shape a surface or remove surface contaminants.</string>
+    <string name="setup_blast">Set up blasting hoses and blasting pots</string>
+    <string name="connection_of_working">Connection of working light and signal switches</string>
+    <string name="working_at_height">Working at height</string>
+    <string name="sweep_blasting_on_structure">Sweep blasting on structure</string>
+    <string name="clean_gritb_after_first_blast">Clean gritb after first blast</string>
+    <string name="pick_upblasting_on_steel_structure">Pick upblasting on steel structure</string>
+    <string name="cleaning_of_all">Cleaning of all grits/steel shots and dusts for blasting inspection</string>
+    <string name="recycling_of_abrasive_material">Recycling of abrasive material</string>
 
 </resources>
