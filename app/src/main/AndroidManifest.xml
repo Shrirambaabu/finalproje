@@ -12,12 +12,53 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.InfoActivity"
+        <activity
+            android:name=".activity.blasting.autoblasting.controlmeasure.SprayControlMeasureActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.controlmeasure.MaintainanceControlMeasureActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.controlmeasure.SettingUpControlMeasureActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.controlmeasure.LiftingControlMesaureActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.hazards.MaintainanceActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.hazards.SprayMaterialActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.hazards.SettingUpActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.autoblasting.hazards.LiftingActivity"
+            android:label="Auto Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.InfoActivity"
             android:label="About SSRA"
             android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme"/>
+            android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".activity.blasting.AutoBlastingActivity"
+            android:name=".activity.blasting.autoblasting.AutoBlastingActivity"
             android:label="Auto Blasting"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />

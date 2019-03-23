@@ -1,19 +1,21 @@
-package com.project.finalyear.activity.blasting;
+package com.project.finalyear.activity.blasting.autoblasting.controlmeasure;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.project.finalyear.R;
+import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 import static com.project.finalyear.utils.Utils.backButtonOnToolbar;
 
-public class AutoBlastingActivity extends AppCompatActivity {
-
+public class SprayControlMeasureActivity extends AppCompatActivity {
 
 
     @BindView(R.id.toolbar)
@@ -23,9 +25,7 @@ public class AutoBlastingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auto_blasting);
-
-
+        setContentView(R.layout.activity_spray_control_measure);
         ButterKnife.bind(this);
 
 
@@ -46,7 +46,6 @@ public class AutoBlastingActivity extends AppCompatActivity {
     }
 
 
-
     @Override
     public boolean onSupportNavigateUp() {
         finish();
@@ -60,5 +59,14 @@ public class AutoBlastingActivity extends AppCompatActivity {
 
         finish();
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+    }
+
+    @OnClick(R.id.button)
+    public void backToAutoBlasting() {
+        Intent intent = new Intent(getApplicationContext(), AutoBlastingActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
     }
 }
