@@ -3,5 +3,6 @@
     <string name="full_name_app">Ship Safety Risk Assessment</string>
     <string name="blasting_definition">Blasting is the process of treating a surface by propelling particles at high velocity toward it. It is a quick and easy way to remove foreign matter from metal, rubber or plastic. Blasting is generally performed in enclosed environments like blasting chambers or cabinets, or on open sites, for example on buildings, bridges, tanks, boats or mobile plants. Common hazards include dust, hazardous chemicals, and risks associated with the use of plant and equipment. \n Blasting has many variants, including:</string>
     <string name="auto_blasting_text_one">Lifting and shifting materials for blasting</string>
+    <string name="auto_blasting_definition">It is a machine for cleaning structure steel. It strongly blasts the original condition steel parts to remove surface rust, welding slag, and scale, making it show uniform metal color and improve coating quality and corrosion prevention effect</string>
 
 </resources>
