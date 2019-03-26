@@ -1,4 +1,4 @@
-package com.project.finalyear.activity.blasting.abbrasive.hazards;
+package com.project.finalyear.activity.blasting.abbrasive.controlmeasure;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.project.finalyear.R;
-import com.project.finalyear.activity.blasting.abbrasive.controlmeasure.ConnectionControlMeasureActivity;
+import com.project.finalyear.activity.blasting.abbrasive.AbrasiveBlastingActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -15,7 +15,7 @@ import butterknife.OnClick;
 
 import static com.project.finalyear.utils.Utils.backButtonOnToolbar;
 
-public class ConnectionWorkActivity extends AppCompatActivity {
+public class SetupControlMeasureActivity extends AppCompatActivity {
 
 
     @BindView(R.id.toolbar)
@@ -25,10 +25,8 @@ public class ConnectionWorkActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_connection_work);
-
+        setContentView(R.layout.activity_setup_control_measure);
         ButterKnife.bind(this);
-
         backButtonOnToolbar(this);
         setupToolbar();
     }
@@ -43,6 +41,14 @@ public class ConnectionWorkActivity extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.button)
+    public void backToAbbrasiveBlasting() {
+        Intent intent = new Intent(getApplicationContext(), AbrasiveBlastingActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
+    }
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -58,11 +64,5 @@ public class ConnectionWorkActivity extends AppCompatActivity {
         finish();
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
-    @OnClick(R.id.button)
-    public void connectionMeasures(){
-        Intent intent = new Intent(getApplicationContext(), ConnectionControlMeasureActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
-    }
 }

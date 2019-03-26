@@ -12,15 +12,92 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.blasting.abbrasive.hazards.DemobilizeActivity"></activity>
-        <activity android:name=".activity.blasting.abbrasive.hazards.RecyclerAbrasiveActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.ClearingGritbActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.PickupBlastingActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.CleanGritbActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.SweepBlastingActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.WorkingHeightActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.ConnectionWorkActivity" />
-        <activity android:name=".activity.blasting.abbrasive.hazards.SetupActivity" />
+        <activity android:name=".activity.blasting.abbrasive.controlmeasure.DemobilizeMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".activity.blasting.abbrasive.controlmeasure.RecyclingMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".activity.blasting.abbrasive.controlmeasure.ClearingGribMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".activity.blasting.abbrasive.controlmeasure.PickupMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"  />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.CleanGribControlMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.SweepControlMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.WorkHeightControlMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.ConnectionControlMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.SetupControlMeasureActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.DemobilizeActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.RecyclerAbrasiveActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.ClearingGritbActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.PickupBlastingActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.CleanGritbActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.SweepBlastingActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.WorkingHeightActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.ConnectionWorkActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.hazards.SetupActivity"
+            android:label="Abrasive Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".activity.blasting.abbrasive.AbrasiveBlastingActivity"
             android:label="Abrasive Blasting"
