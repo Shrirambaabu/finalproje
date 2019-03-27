@@ -62,7 +62,6 @@
     <string name="fatal">Fatal</string>
     <string name="qualified_electrician_to_check_working_light_and_signal_switches_before_use">Qualified electrician to check working light and signal switches before use</string>
     <string name="use_only_110dc_power_supply_in_confined">Use only 110DC power supply in confined</string>
-    <string name="fall_from_height">Fall from height</string>
     <string name="observe_safe_work_pratice_for_working_at_height">Observe safe work pratice for working at height</string>
     <string name="check_for_valid_scaffold_tag">Check for valid scaffold tag</string>
 
@@ -172,5 +171,37 @@
     <string name="equipped_with_personal_hand_lamp">Equipped with personal hand lamp</string>
     <string name="cover_the_tank_coaming_adequately_topreventing_dust_spreading_to_the_main_deck_area">Cover the tank coaming adequately topreventing dust spreading to the main deck area.</string>
     <string name="use_hearing_protection_e_g_ear_plug">Use hearing protection (e.g ear plug)</string>
+    <string name="set_up_power_tool_machine_and_connect_to_compressed_air_compresor">Set up power tool machine and connect to compressed air compresor</string>
+    <string name="power_tool_def">Regarding paint performance, it is generally said that insufficient surface treatment is the cause of more than 50 percent of the paint failures experienced. In general, painting has two functions. One is to protect the steel surface from corrosion, and the other is to give a good cosmetic appearance. In shipbuilding, special attention is paid to the paint\'s anti-corrosive capability, because it affects the ship\'s life and service performance Surface preparation consists of two stages; the primary and secondary.The primary preparation is shot blasting, sandblasting and grit blasting. Mechanical surface preparation devices powered by compressed air are controlled by a single operator. These mechanical dusting tools are the most widely used in secondary surface preparation. Power tools such as a power brush, disc sander, etc., are mainly applied in secondary preparation.</string>
+    <string name="slip_trip_and_fall">Slip , trip and fall</string>
+    <string name="improper_connection_leading_to_flying_object">Improper connection leading to flying object</string>
+    <string name="check_and_ensure_proper_connection_and_ppe">Check and ensure proper connection and PPE</string>
+    <string name="flying_particles_into_eye">Flying particles into eye</string>
+    <string name="cut_by_high_speed_rotating_disc_or_cup_brushes">Cut by high speed rotating disc or cup brushes</string>
+    <string name="wear_safety_googles_and_face_shield">Wear safety googles and face shield</string>
+    <string name="obstruction_of_access_egress_causing_trip_and_fall">Obstruction of access/egress causing trip and fall</string>
+    <string name="defective_spray_pump_hoses_and_joints">Defective spray pump , hoses and joints</string>
+    <string name="spray_pump_and_temporary_paint_storage_not_cordon_off">Spray pump and temporary paint storage not cordon off</string>
+    <string name="ensure_that_hoses_are_arrange_in_proper_manner_and_escape_route_free_from_obstruction">Ensure that hoses are arrange in proper manner and escape route free from obstruction</string>
+    <string name="check_before_use_for_visible_cracks_worn_out_dents_hoses_and_joints_condition">check before use for visible cracks, worn out , dents, hoses and joints condition</string>
+    <string name="exclusion_of_spray_pump_and_paint_storage_area_by_barricading_and_signage">Exclusion of spray pump and paint storage area by barricading and signage</string>
+    <string name="injuries_caused_by_high_pressure_fluid">Injuries caused by high pressure fluid</string>
+    <string name="fires_and_explosion">Fires and explosion</string>
+    <string name="exposure_and_contact_with_paint_dusts_solvent">Exposure and contact with paint dusts/solvent</string>
+    <string name="ensure_spray_hose_does_not_kink_at_all_times">Ensure spray hose does not kink at all times</string>
+    <string name="check_joints_and_ensure_proper_tightening">Check joints and ensure proper tightening</string>
+    <string name="pump_man_standby_and_alert_to_shut_off_when_required">Pump man standby and alert to shut off when required</string>
+    <string name="co_ordinate_in_vscc_meeting">co ordinate in VSCC meeting</string>
+    <string name="application_and_approval_of_painting_permit">application and approval of painting permit</string>
+    <string name="earthing_of_spray_pump">earthing of spray pump</string>
+    <string name="check_before_use_of_explosion_proof_lights_and_cable">check before use of explosion proof lights and cable</string>
+    <string name="observe_precaution_and_steps_to_be_taken_as_stated_in_msds">Observe precaution and steps to be taken as stated in MSDS</string>
+    <string name="examine_spray_pump_ventilation_blower_de_humidifier_compressors_reguraly">examine spray pump, ventilation blower, de-humidifier, compressors reguraly</string>
+    <string name="yearly_hearing_test_for_painters">yearly hearing test for painters</string>
+    <string name="fall_from_height">Fall from height</string>
+    <string name="exposure_to_open_paint_and_thinner_cans">Exposure to open paint and thinner cans</string>
+    <string name="spray_pump_topple">Spray pump topple</string>
+    <string name="obstruction_of_access_causing_trip_and_fall">Obstruction of access causing trip and fall</string>
+    <string name="def_spray">During spray painting operations, workers are at a greater risk of exposure to hazardous substances than when they are painting with a brush or roller. Paint particles are released into the atmosphere through the spray nozzle, which increases the release of hazardous vapors. While safer methods have been developed, such as using less volatile and less toxic paints and coatings, and low-flow airless spray nozzles, shipyard employers still need to take precautions to avoid hazardous exposures to workers</string>
 
 </resources>

@@ -25,12 +25,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/toolbar"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="12dp"
             android:lineSpacingExtra="4dp"
-            android:text="Engineering is a vast and growing field comprising of several branches of operation, one of which is health and safety engineering. It is also known as safety engineering and focuses on the safety of products and processes in a working environment. A health and safety engineer is responsible for developing new solutions to identify and minimize potential threats or risks. In order to carry out his/her job responsibilities effectively, the engineer must be educated, experienced and highly trained.
-The job of health and safety engineers requires meticulous planning and implementation of safety programs to prevent unsafe working condition. These engineers generally work with various organizations for designing and installing safety devices. Such engineers use their knowledge in prevention of disease or injury, or any kind of damage to the property."
+            android:text="Ship safety assessment tool is an android application which is mainly developed to ensure safety level in the ship refitting area and it very much useful to the ship design engineer to develop the work process in the safety aspect. SSRA tool is a process guidance tool to know what are all the hazard present in the operation and possible incident  happen in that area. Most importantly what are all the countermeasure should be given to the particular hazard? HIRA should be developed from the previous refit area in the ship and possible data collected from the respective blasting and painting process. This all possible data should be stored in the android application because it helps the designers to work within the proper time. Mainly SSRA tool focus on blasting and painting process. These two process details feed into the android application it’s a user friendly application and easy to procedure to operate. "
             android:textSize="14sp" />
     </RelativeLayout>
 

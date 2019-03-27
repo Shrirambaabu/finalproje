@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.project.finalyear.R;
 import com.project.finalyear.activity.blasting.BlastingHomeActivity;
+import com.project.finalyear.activity.painting.PaintingHomeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.card_two)
     public void cardTwo() {
-        Intent intent = new Intent(getApplicationContext(), SampleDetailsActivity.class);
+        Intent intent = new Intent(getApplicationContext(), PaintingHomeActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 

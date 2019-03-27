@@ -101,7 +101,7 @@
                             android:layout_height="wrap_content"
                             android:paddingStart="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:paddingTop="8dp"
                             android:text="@string/transporting_and_unload_blasting_equipment_to_worksite"
                             android:textSize="16sp" />
@@ -144,7 +144,7 @@
                             android:layout_height="wrap_content"
                             android:paddingStart="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:paddingTop="8dp"                            android:text="@string/setting_hydro"
                             android:textSize="16sp" />
 
@@ -185,7 +185,7 @@
                             android:layout_height="wrap_content"
                             android:paddingStart="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:paddingTop="8dp"
                             android:text="Connection of working light and signal switches "
                             android:textSize="16sp" />
@@ -228,7 +228,7 @@
                             android:paddingStart="8dp"
                             android:paddingTop="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:text="Entry in Confined space to set up blasting hoses"
                             android:textSize="16sp" />
 
@@ -269,7 +269,7 @@
                             android:paddingStart="8dp"
                             android:paddingTop="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:text="Operating blasting pots to supply grit"
                             android:textSize="16sp" />
 
@@ -311,7 +311,7 @@
                             android:paddingStart="8dp"
                             android:paddingTop="8dp"
                             android:paddingBottom="8dp"
-                            android:paddingEnd="24dp"
+                            android:paddingEnd="32dp"
                             android:text="Perform grit blasting in confined space"                            android:textSize="16sp" />
 
                         <ImageView

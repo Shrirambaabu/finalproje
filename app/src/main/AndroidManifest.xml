@@ -13,6 +13,136 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.painting.touchup.controlmeasure.WorkHeightMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.controlmeasure.CleanUpPaintMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.controlmeasure.EntryInPaintMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.controlmeasure.PainitngStepMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.hazards.CleanupPaintActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.hazards.WorkHeightPaintActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.hazards.EntryInPaintActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.hazards.PaintingStepActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.controlmeasure.WorkingHeightMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.controlmeasure.SprayPaintMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.controlmeasure.SetupMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.controlmeasure.CleanUpMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.hazards.CleanUpActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.hazards.WorkingHeightActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.hazards.SprayPaintWorkActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.hazards.SettingSprayActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.controlmeasure.DemobiliseMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.controlmeasure.ComenecrMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.controlmeasure.SetupMeasureActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.hazards.DemobilizeActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.hazards.CommenceOperationActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.hazards.SetupActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.touchup.TouchupActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.spraypaint.SprayPaintActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.powertooling.PowerToolingActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.painting.PaintingHomeActivity"
+            android:label="Painting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
             android:name=".activity.blasting.gritblasting.controlmeasure.TransportingGritMeasureActivity"
             android:label="Grit Blasting"
             android:screenOrientation="portrait"

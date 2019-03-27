@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.painting.spraypaint.controlmeasure.SprayPaintMeasureActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient_basic"
+            android:theme="@style/ThemeOverlay.MyApp.ActionBar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="24dp">
+
+                <TextView
+                    android:id="@+id/control_measure_dummy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text=" Control measures:"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/control_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/control_measure_dummy_text"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/white"
+                    android:elevation="8dp"
+                    android:padding="8dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="@string/check_joints_and_ensure_proper_tightening"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/ensure_spray_hose_does_not_kink_at_all_times"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/pump_man_standby_and_alert_to_shut_off_when_required"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/co_ordinate_in_vscc_meeting"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/application_and_approval_of_painting_permit"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/earthing_of_spray_pump"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/check_before_use_of_explosion_proof_lights_and_cable"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="ensure sprayer, helpers and pump man wear appropriate type of respirator/ air fed mask , protective suits with elastic straps at wrist and ankles"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/observe_precaution_and_steps_to_be_taken_as_stated_in_msds"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/examine_spray_pump_ventilation_blower_de_humidifier_compressors_reguraly"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="@string/yearly_hearing_test_for_painters"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:text="Enforcement of hearing protection"
+                            android:paddingTop="4dp"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/control_card"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg"
+                    android:text="Back to Spray Paint"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
