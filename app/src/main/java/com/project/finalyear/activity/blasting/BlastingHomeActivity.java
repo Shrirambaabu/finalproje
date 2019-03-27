@@ -11,6 +11,7 @@ import com.project.finalyear.R;
 import com.project.finalyear.activity.MainActivity;
 import com.project.finalyear.activity.blasting.abbrasive.AbrasiveBlastingActivity;
 import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
+import com.project.finalyear.activity.blasting.hydroblasting.HydroBlastingActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -28,7 +29,7 @@ public class BlastingHomeActivity extends AppCompatActivity {
     @BindView(R.id.auto_blasting_card)
     CardView autoBlastingCardView;
 
-    @BindView(R.id.rock_blasting_card)
+    @BindView(R.id.hydro_blasting_card)
     CardView rockBlastingCardView;
 
     @BindView(R.id.abbrasive_blasting_card)
@@ -96,6 +97,13 @@ public class BlastingHomeActivity extends AppCompatActivity {
     public void abrasiveBlasting(){
 
         Intent intent=new Intent(getApplicationContext(), AbrasiveBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
+    }@OnClick(R.id.hydro_blasting_card)
+    public void hydroBlasting(){
+
+        Intent intent=new Intent(getApplicationContext(), HydroBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 

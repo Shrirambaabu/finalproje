@@ -65,7 +65,7 @@
     <string name="fall_from_height">Fall from height</string>
     <string name="observe_safe_work_pratice_for_working_at_height">Observe safe work pratice for working at height</string>
     <string name="check_for_valid_scaffold_tag">Check for valid scaffold tag</string>
-    <string name="noise_induced_deafness">Noise induced deafness</string>
+
     <string name="hand_arm_vibration">Hand arm vibration</string>
     <string name="examine_compressors_blasting_nozzles_pots_and_vaccum_equipent_regularly">Examine compressors, blasting nozzles , pots and vaccum equipent regularly</string>
     <string name="yearly_hearing_test_for_blasters">Yearly hearing test for blasters</string>
@@ -85,5 +85,41 @@
     <string name="clean_up_work_area_after_end_of_work">*Clean up work area after end of work</string>
     <string name="maintain_good_housekeeping_to_minimize_risk_of_exposure">Maintain good housekeeping to minimize risk of exposure</string>
     <string name="use_blasting_hood_with_air_supplied">Use blasting hood with air supplied</string>
+    <string name="hydro_blasting_is_a_technique_for_cleaning_internal_and_external_surfaces_which_relies_entirely_on_the_sheer_force_of_water_from_a_pressurized_source_to_achieve_the_desired_18_cleaning_effect_on_the_intended_surface">Hydro blasting is a technique for cleaning internal and external surfaces, which relies entirely on the sheer force of water from a pressurized source to achieve the desired 18 cleaning effect on the intended surface.</string>
+    <string name="entity_confirmed">Entry in confined space for setting up of hoses and equipment</string>
+    <string name="setting_hydro">Setting up of the hydro blasting machine and hose / equipment</string>
+    <string name="presence_of_toxic_flammable_gases">Presence of toxic/flammable gases</string>
+    <string name="insufficient_oxygen">Insufficient oxygen</string>
+    <string name="obstruction_to_access_egress">Obstruction to access/ egress</string>
+    <string name="asphyxiation">Asphyxiation</string>
+    <string name="minor_injuries">Minor injuries</string>
+    <string name="supply_forced_ventillation">Supply Forced ventillation</string>
+    <string name="maintain_good_housekeeping">maintain good housekeeping</string>
+    <string name="proper_cable_and_hoses_management">proper cable and hoses management</string>
+    <string name="connections_not_secured_properly">Connections not secured properly</string>
+    <string name="loud_noise_from_the_hydro_blasting_operation">Loud noise from the hydro blasting operation</string>
+    <string name="long_exposure_to_hand_arm_vibration">Long exposure to hand/arm vibration</string>
+    <string name="struck_by_high_pressure_water_jet">Struck by high pressure water jet</string>
+    <string name="struck_by_high_pressure_water_jet_due_to_swinging_of_the_hoses">Struck by high pressure water jet due to swinging of the hoses</string>
+    <string name="noise_induced_deafness">Noise induced deafness</string>
+    <string name="vibration_white_finger_dead_finger">Vibration white finger/ dead finger</string>
+    <string name="observe_safe_working_pratice_for_working_at_height">observe safe working pratice for working at height</string>
+    <string name="ensure_thatscaffold_used_is_validated_if_required_to_use">ensure thatscaffold used is validated if required to use</string>
+    <string name="ear_plug_to_be_worn_during_hydro_blasting">ear plug to be worn during hydro blasting</string>
+    <string name="conduct_hearing_test_for_blasters">conduct hearing test for blasters</string>
+    <string name="limit_individual_blaster_working_duration">limit individual blaster working duration</string>
+    <string name="use_face_shield_and_all_other_necessary_ppe">use face shield and all other necessary PPE</string>
+    <string name="do_not_expose_body_limbs_parts_to_the_high_pressure_jet_during_blasting">do not expose body limbs/ parts to the high pressure jet during blasting</string>
+    <string name="check_and_secure_all_connection">check and secure all connection</string>
+    <string name="blaster_to_use_quick_release_catch">blaster to use quick release catch</string>
+    <string name="ensure_more_than_adequate_length_of_hose_is_pull_in_the_working_area">ensure more than adequate length of hose is pull in the working area</string>
+    <string name="fall_into_the_water">Fall into the water</string>
+    <string name="body_ache_due_to_shoveling_of_rubbish_such_as_paint_flakes_rust_scales">Body ache due to shoveling of rubbish such as paint flakes, rust, scales</string>
+    <string name="drowning">Drowning</string>
+    <string name="body_ache">Body ache</string>
+    <string name="ensure_that_water_is_pump_out_before_attempting_to_carry_out_cleaning">ensure that water is pump out before attempting to carry out cleaning</string>
+    <string name="use_proper_body_posture_when_handling_shovel">use proper body posture when handling shovel</string>
+    <string name="trip_and_fall">Trip and fall</string>
+    <string name="ensure_that_hose_cable_and_equipment_is_not_placed_obstructing_passageaway">ensure that hose/cable and equipment is not placed obstructing passageaway</string>
 
 </resources>

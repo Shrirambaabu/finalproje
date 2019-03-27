@@ -12,22 +12,91 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.blasting.abbrasive.controlmeasure.DemobilizeMeasureActivity"
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.SetupMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.PumpOutMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.PerformingMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.EntryMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.DemobilizeHydroMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.controlmeasure.ConnectionWorkMeasureActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.DemobilizeHydroActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.PumpingOutActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.PerformingHydroBlastingActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.ConnectionOfWorkActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.SetupHydroActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.hazards.EntryActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.hydroblasting.HydroBlastingActivity"
+            android:label="Hydro Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.DemobilizeMeasureActivity"
             android:label="Abrasive Blasting"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".activity.blasting.abbrasive.controlmeasure.RecyclingMeasureActivity"
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.RecyclingMeasureActivity"
             android:label="Abrasive Blasting"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".activity.blasting.abbrasive.controlmeasure.ClearingGribMeasureActivity"
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.ClearingGribMeasureActivity"
             android:label="Abrasive Blasting"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".activity.blasting.abbrasive.controlmeasure.PickupMeasureActivity"
+        <activity
+            android:name=".activity.blasting.abbrasive.controlmeasure.PickupMeasureActivity"
             android:label="Abrasive Blasting"
             android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme"  />
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".activity.blasting.abbrasive.controlmeasure.CleanGribControlMeasureActivity"
             android:label="Abrasive Blasting"
