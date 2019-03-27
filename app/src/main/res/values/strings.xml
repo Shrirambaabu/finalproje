@@ -75,7 +75,7 @@
     <string name="use_air_supplied_blasting_hood">Use air supplied blasting hood</string>
     <string name="ensure_that_passageway_is_clear">Ensure that passageway is clear</string>
     <string name="blaster_rotation_to_limit_exposure_duration">Blaster rotation to limit exposure duration</string>
-    <string name="exposure_to_dust">Exposure to dust</string>
+
     <string name="contamination">Contamination</string>
     <string name="poor_housekeeping">Poor housekeeping</string>
     <string name="equipment_topple">Equipment topple</string>
@@ -101,7 +101,7 @@
     <string name="long_exposure_to_hand_arm_vibration">Long exposure to hand/arm vibration</string>
     <string name="struck_by_high_pressure_water_jet">Struck by high pressure water jet</string>
     <string name="struck_by_high_pressure_water_jet_due_to_swinging_of_the_hoses">Struck by high pressure water jet due to swinging of the hoses</string>
-    <string name="noise_induced_deafness">Noise induced deafness</string>
+
     <string name="vibration_white_finger_dead_finger">Vibration white finger/ dead finger</string>
     <string name="observe_safe_working_pratice_for_working_at_height">observe safe working pratice for working at height</string>
     <string name="ensure_thatscaffold_used_is_validated_if_required_to_use">ensure thatscaffold used is validated if required to use</string>
@@ -121,5 +121,56 @@
     <string name="use_proper_body_posture_when_handling_shovel">use proper body posture when handling shovel</string>
     <string name="trip_and_fall">Trip and fall</string>
     <string name="ensure_that_hose_cable_and_equipment_is_not_placed_obstructing_passageaway">ensure that hose/cable and equipment is not placed obstructing passageaway</string>
+    <string name="grit_def">Grit blasting is a process where high-speed abrasive particles are accelerated and forcefully directed against a surface to remove contaminants from the surface and condition the surface for subsequent finishing</string>
+    <string name="transporting_and_unload_blasting_equipment_to_worksite">Transporting and unload blasting equipment to worksite</string>
+    <string name="physical_hazards">Physical hazards</string>
+    <string name="improper_lifting">Improper lifting</string>
+    <string name="unauthorized_operator_for_lifting_operation">Unauthorized operator for lifting operation</string>
+    <string name="falling_object_due_to_defective_improper_lifting_gears_used_lifting_ires_belts_and_shackles">Falling object due to defective/ improper lifting gears used (lifting ires, belts and shackles)</string>
+    <string name="lifters_likely_to_suffer_bodily_injury">lifters likely to suffer bodily injury</string>
+    <string name="use_lifting_gears_appropriate_to_the_load_carried">Use lifting gears appropriate to the load carried</string>
+    <string name="do_visual_inspection_ensure_that_intended_lifting_gears_are_in_good_working_condition">Do visual inspection ensure that intended lifting gears are in good working condition</string>
+    <string name="use_lifting_gers_which_are_inspected_annually_and_endosred_with_a_valid_certificate">Use lifting gers which are inspected annually and endosred with a valid certificate</string>
+    <string name="keep_unauthorized_personnel_away_from_lifting_area">keep unauthorized personnel away from lifting area</string>
+    <string name="identify_and_keep_away_from_areas_whereby_hazard_of_strucking_by_equipment_pinch_points_is_high">Identify and keep away from areas whereby hazard of strucking by equipment, pinch points is high</string>
+    <string name="check_and_ensure_that_intended_personnel_are_qualified_and_trained_to_perform_the_lifiting">Check and ensure that intended personnel are qualified and trained to perform the lifiting</string>
+    <string name="hand_finger_injury">Hand/ finger injury</string>
+    <string name="using_defective_blasting_equipment">Using defective blasting equipment</string>
+    <string name="use_cable_hangar_to_hang_up_hoses_and_cables">Use cable hangar to hang up hoses and cables</string>
+    <string name="keep_working_rea_clean">keep working rea clean</string>
+    <string name="check_all_blasting_and_air_hoses_for_visible_defect">Check all blasting and air hoses for visible defect</string>
+    <string name="electrical">Electrical</string>
+    <string name="fire_explosion">Fire / Explosion</string>
+    <string name="qualified_electrician_to_check_working_light_and_signal_swiches_before_use">Qualified Electrician to check working light and signal swiches before use</string>
+    <string name="use_only_110dc_power_supply_in_confined_space">Use only 110DC power supply in confined space</string>
+    <string name="lack_of_oxygen">lack of Oxygen</string>
+    <string name="toxic_flammable_gases">Toxic/ Flammable gases</string>
+    <string name="insufficent_lighting_for_access_area_and_working_area">insufficent lighting for access area and working area</string>
+    <string name="person_falling_on_open_edge_unfenced_opening">Person falling on open edge / unfenced opening</string>
+    <string name="collapse_of_scaffold">collapse of scaffold</string>
+    <string name="apply_entry_permit">Apply entry permit</string>
+    <string name="supply_lighting">supply lighting</string>
+    <string name="maintain_continuous_force_ventillation">Maintain continuous force ventillation</string>
+    <string name="carry_torchlight">Carry torchlight</string>
+    <string name="watch_for_unfenced_opening_and_edges_unsecured_staging_planks">Watch for unfenced opening and edges, unsecured staging planks</string>
+    <string name="check_validity_of_scaffold_tag_weekly_inspection">check validity of scaffold tag ( weekly inspection)</string>
+    <string name="hang_up_hoses_and_keep_hoses_clear_from_passageway">Hang up hoses and keep hoses clear from passageway</string>
+
+    <string name="struck_by_blasting_gun">Struck by blasting gun</string>
+    <string name="do_not_disconnect_blasting_hoses_which_are_pressurized">Do not disconnect blasting hoses which are pressurized</string>
+    <string name="ensure_all_blasting_hoses_connection_are_strengthen_by_wires">Ensure all blasting hoses connection are strengthen by wires</string>
+    <string name="blaster_to_secure_blasting_gun_to_fixed_structure_as_an_additional_safety_precautio_when_blasting_is_temporarily_stopped_so_as_to_avoi_pot_man_misinterpreting_signal_and_restart_blasting_gun_causing_it_to_swing_about">Blaster to secure blasting gun to fixed structure as an additional safety precautio when blasting is temporarily stopped so as to avoi pot man misinterpreting signal and restart blasting gun causing it to swing about.</string>
+    <string name="health_hazard">Health hazard</string>
+    <string name="poor_lighting_in_dusty_environment">Poor lighting in dusty environment</string>
+    <string name="noise">Noise</string>
+    <string name="exposure_to_dust">Exposure to dust</string>
+    <string name="high_pressured_grit">High pressured grit</string>
+    <string name="dusty_around_tank_coaming_area">Dusty around tank coaming area</string>
+    <string name="noise_induced_deafness">Noise induced deafness</string>
+    <string name="wear_air_feed_mask_attached_to_airline">wear air feed mask attached to airline</string>
+    <string name="wear_blasting_suit_and_foot_guarding">Wear blasting suit and foot guarding</string>
+    <string name="equipped_with_personal_hand_lamp">Equipped with personal hand lamp</string>
+    <string name="cover_the_tank_coaming_adequately_topreventing_dust_spreading_to_the_main_deck_area">Cover the tank coaming adequately topreventing dust spreading to the main deck area.</string>
+    <string name="use_hearing_protection_e_g_ear_plug">Use hearing protection (e.g ear plug)</string>
 
 </resources>

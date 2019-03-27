@@ -11,6 +11,7 @@ import com.project.finalyear.R;
 import com.project.finalyear.activity.MainActivity;
 import com.project.finalyear.activity.blasting.abbrasive.AbrasiveBlastingActivity;
 import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
+import com.project.finalyear.activity.blasting.gritblasting.GritBlastingActivity;
 import com.project.finalyear.activity.blasting.hydroblasting.HydroBlastingActivity;
 
 import butterknife.BindView;
@@ -60,7 +61,6 @@ public class BlastingHomeActivity extends AppCompatActivity {
     }
 
 
-
     @Override
     public boolean onSupportNavigateUp() {
 
@@ -86,24 +86,36 @@ public class BlastingHomeActivity extends AppCompatActivity {
 
 
     @OnClick(R.id.auto_blasting_card)
-    public void autoBlasting(){
+    public void autoBlasting() {
 
-        Intent intent=new Intent(getApplicationContext(), AutoBlastingActivity.class);
+        Intent intent = new Intent(getApplicationContext(), AutoBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
     }
-    @OnClick(R.id.abbrasive_blasting_card)
-    public void abrasiveBlasting(){
 
-        Intent intent=new Intent(getApplicationContext(), AbrasiveBlastingActivity.class);
+    @OnClick(R.id.abbrasive_blasting_card)
+    public void abrasiveBlasting() {
+
+        Intent intent = new Intent(getApplicationContext(), AbrasiveBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
-    }@OnClick(R.id.hydro_blasting_card)
-    public void hydroBlasting(){
+    }
 
-        Intent intent=new Intent(getApplicationContext(), HydroBlastingActivity.class);
+    @OnClick(R.id.hydro_blasting_card)
+    public void hydroBlasting() {
+
+        Intent intent = new Intent(getApplicationContext(), HydroBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
+    }
+
+    @OnClick(R.id.grit_blasting_card)
+    public void gritBlasting() {
+
+        Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 

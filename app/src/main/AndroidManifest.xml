@@ -13,6 +13,71 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.TransportingGritMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.SetupGritMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.PerformingGritMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.OperatingBlastingMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.EntittyInMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.controlmeasure.ConnectionLightMeasureActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.PerformingGritActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.OperatingBlastingActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.EntryInActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.ConnectionLightActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.SettingUpActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.hazards.TransportingActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.gritblasting.GritBlastingActivity"
+            android:label="Grit Blasting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
             android:name=".activity.blasting.hydroblasting.controlmeasure.SetupMeasureActivity"
             android:label="Hydro Blasting"
             android:screenOrientation="portrait"
