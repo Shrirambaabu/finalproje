@@ -1,7 +1,9 @@
 package com.project.finalyear.activity.blasting;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -46,7 +48,25 @@ public class BlastingHomeActivity extends AppCompatActivity {
 
         backButtonOnToolbar(this);
         setupToolbar();
+    }
 
+    private void showAlertBox() {
+        new AlertDialog.Builder(this)
+                .setTitle("Alert")
+                .setMessage("This module is under development, It will be available soon.")
+
+                // Specifying a listener allows you to take an action before dismissing the dialog.
+                // The dialog is automatically dismissed when a dialog button is clicked.
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Continue with delete operation
+                        dialog.dismiss();
+                    }
+                })
+
+                // A null listener allows the button to dismiss the dialog and take no further action.
+                .setIcon(R.drawable.ic_app_logo)
+                .show();
     }
 
 
@@ -120,4 +140,56 @@ public class BlastingHomeActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
 
     }
+
+    @OnClick(R.id.forklift_blasting_card)
+    public void forkliftCard() {
+
+      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
+        showAlertBox();
+
+    }
+
+    @OnClick(R.id.workshop_maintainence_card)
+    public void workshopCard() {
+
+      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
+        showAlertBox();
+
+    }
+
+    @OnClick(R.id.cherry_picker_card)
+    public void cherryPickerCard() {
+
+      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
+        showAlertBox();
+
+    }
+
+    @OnClick(R.id.high_pressure_water_card)
+    public void highPressureWater() {
+
+      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
+        showAlertBox();
+
+    }
+
+    @OnClick(R.id.high_pressure_ship_card)
+    public void highPressureShip() {
+
+      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
+        showAlertBox();
+
+    }
+
+
 }
