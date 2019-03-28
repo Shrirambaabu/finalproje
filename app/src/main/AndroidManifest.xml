@@ -12,7 +12,23 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity"></activity>
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.OperationMeasureActivity"></activity>
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.OperarationTestActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.PressureTestingMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.PressureTestingActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ToppingupMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.TopingUpActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.HotworkMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.HotworkActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ChemicalCleaningMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ChemicalCleaningActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.AssembleMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.AssembleActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ElectricalSupplyMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ElectricalPowerSupplyActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ConnectionDisconnectionMeasureActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ConnectionDisconnectionActivity" />
+        <activity android:name=".activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity" />
         <activity
             android:name=".activity.blasting.forklift.controlmeasure.TravelMeasureActivity"
             android:label="Forklifting"

@@ -213,5 +213,8 @@
     <string name="load_falling_off_forks">load falling off forks</string>
     <string name="overloading">Overloading</string>
     <string name="turnbehind_to_check_blind_spots_before_driving_off">Turnbehind to check blind spots before driving off</string>
+    <string name="improper_condition">Improper condition</string>
+    <string name="lock_out_and_tag_out_system">Lock out and tag out system</string>
+    <string name="only_qualified_electrician_to_be_assigned_on_the_job">Only qualified electrician to be assigned on the job</string>
 
 </resources>
