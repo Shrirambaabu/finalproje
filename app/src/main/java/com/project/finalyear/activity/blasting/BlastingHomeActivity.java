@@ -13,6 +13,7 @@ import com.project.finalyear.R;
 import com.project.finalyear.activity.MainActivity;
 import com.project.finalyear.activity.blasting.abbrasive.AbrasiveBlastingActivity;
 import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity;
+import com.project.finalyear.activity.blasting.forklift.ForkliftActivity;
 import com.project.finalyear.activity.blasting.gritblasting.GritBlastingActivity;
 import com.project.finalyear.activity.blasting.hydroblasting.HydroBlastingActivity;
 
@@ -144,17 +145,17 @@ public class BlastingHomeActivity extends AppCompatActivity {
     @OnClick(R.id.forklift_blasting_card)
     public void forkliftCard() {
 
-      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ForkliftActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
-        showAlertBox();
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
 
     }
 
     @OnClick(R.id.workshop_maintainence_card)
     public void workshopCard() {
 
-      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+       /* Intent intent = new Intent(getApplicationContext(), ForkliftActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
         showAlertBox();

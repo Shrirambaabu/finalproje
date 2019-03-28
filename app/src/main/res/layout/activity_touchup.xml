@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Power Tooling:"
+                    android:text="Touchup Tooling:"
                     android:textAllCaps="true"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
@@ -55,7 +55,7 @@
                     android:elevation="8dp"
                     android:lineSpacingExtra="8dp"
                     android:padding="8dp"
-                    android:text="@string/power_tool_def"
+                    android:text="@string/ship_repair_coating_and_painting_of_the_hull_block_erection_butt_seam_joints_and_edges_are_also_defined_as_a_touch_up_method"
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     tools:targetApi="lollipop" />
@@ -68,7 +68,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Procedures for Power Tooling"
+                    android:text="Procedures for Touchup Tooling"
                     android:textAllCaps="true"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
@@ -107,7 +107,7 @@
                                 android:paddingTop="8dp"
                                 android:paddingEnd="32dp"
                                 android:paddingBottom="8dp"
-                                android:text="@string/set_up_power_tool_machine_and_connect_to_compressed_air_compresor"
+                                android:text="Painting tools"
                                 android:textSize="16sp" />
 
                             <ImageView
@@ -150,7 +150,7 @@
                                 android:paddingTop="8dp"
                                 android:paddingEnd="24dp"
                                 android:paddingBottom="8dp"
-                                android:text="Commence operation"
+                                android:text="Entry in confined space for touch up painting"
                                 android:textSize="16sp" />
 
                             <ImageView
@@ -193,7 +193,50 @@
                                 android:paddingTop="8dp"
                                 android:paddingEnd="24dp"
                                 android:paddingBottom="8dp"
-                                android:text="Demobilise equipment"
+                                android:text="Working at height"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginEnd="12dp"
+                                android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                        </RelativeLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+
+                        android:id="@+id/step_four_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/step_two_card"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@android:color/white"
+                        android:elevation="8dp"
+                        android:paddingBottom="4dp"
+                        tools:targetApi="lollipop">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp">
+
+                            <TextView
+                                android:id="@+id/fhs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="8dp"
+                                android:paddingTop="8dp"
+                                android:paddingEnd="24dp"
+                                android:paddingBottom="8dp"
+                                android:text="Clean up de-mobilize equipment"
                                 android:textSize="16sp" />
 
                             <ImageView

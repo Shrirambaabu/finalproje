@@ -12,6 +12,52 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity"></activity>
+        <activity
+            android:name=".activity.blasting.forklift.controlmeasure.TravelMeasureActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.controlmeasure.PuttingDownMeasureActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.controlmeasure.DriveMeasuresActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.controlmeasure.AdjustWorkMeasureActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.hazards.PuttingDownActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.hazards.TravelForkliftActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.hazards.DriveForkliftActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.hazards.AdjustWorkActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.forklift.ForkliftActivity"
+            android:label="Forklifting"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".activity.painting.touchup.controlmeasure.WorkHeightMeasureActivity"
             android:label="Painting"

@@ -203,5 +203,15 @@
     <string name="spray_pump_topple">Spray pump topple</string>
     <string name="obstruction_of_access_causing_trip_and_fall">Obstruction of access causing trip and fall</string>
     <string name="def_spray">During spray painting operations, workers are at a greater risk of exposure to hazardous substances than when they are painting with a brush or roller. Paint particles are released into the atmosphere through the spray nozzle, which increases the release of hazardous vapors. While safer methods have been developed, such as using less volatile and less toxic paints and coatings, and low-flow airless spray nozzles, shipyard employers still need to take precautions to avoid hazardous exposures to workers</string>
+    <string name="ship_repair_coating_and_painting_of_the_hull_block_erection_butt_seam_joints_and_edges_are_also_defined_as_a_touch_up_method">Ship repair coating and painting of the hull block erection butt, seam joints and edges are also defined as a “touch up method”</string>
+    <string name="forklift_def">A forklift (also called lift truck, jitney, fork truck, fork hoist, and forklift truck) is a powered industrial truck used to lift and move materials over short distances. Forklifts are rated for loads at a specified maximum weight and a specified forward center of gravity</string>
+    <string name="adjust_forks_to_desired_width">Adjust forks to desired width</string>
+    <string name="pinch_points">Pinch points</string>
+    <string name="over_exertion">Over exertion</string>
+    <string name="ensure_that_lock_pins_are_in_placed">Ensure that lock pins are in placed</string>
+    <string name="struck_onto_object_people">Struck onto object / people</string>
+    <string name="load_falling_off_forks">load falling off forks</string>
+    <string name="overloading">Overloading</string>
+    <string name="turnbehind_to_check_blind_spots_before_driving_off">Turnbehind to check blind spots before driving off</string>
 
 </resources>
