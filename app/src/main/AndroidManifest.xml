@@ -13,6 +13,91 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.DemobilizeWaterMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.DemobilizeWaterActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.PumpingWaterMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.PumpingWaterActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.UseOfChemicalMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.UseOfChemicalActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.PerformingMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.PerformingPressureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.SettingPressureMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.SettingPressureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.LiftingControlMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.LiftingPressureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.ShiftingHighMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.ShiftingHighPressureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.controlmeasure.EntryIntoMeasureActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.hazards.EntryIntoActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressurewater.HighPressureWaterActivity"
+            android:label="High Pressure Water"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
             android:name=".activity.blasting.cherrypicker.controlmeasure.DrivingMeasureActivity"
             android:label="Cherry Picker Operation"
             android:screenOrientation="portrait"
