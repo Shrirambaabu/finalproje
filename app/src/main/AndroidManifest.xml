@@ -13,6 +13,61 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.blasting.highpressureship.controlmeasure.StepFiveMeasureActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.controlmeasure.StepFourMeasureActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.controlmeasure.StepThreeMeasureActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.controlmeasure.StepTwoMeasureActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.controlmeasure.StepOneMeasureActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.hazards.StepFiveHazardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.hazards.StepFourHazardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.hazards.StepThreeHazardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.hazards.StepTwoHazardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.hazards.StepOneHazardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.highpressureship.HighPressureShipyardActivity"
+            android:label="High Pressure Shipyard"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
             android:name=".activity.blasting.highpressurewater.controlmeasure.DemobilizeWaterMeasureActivity"
             android:label="High Pressure Water"
             android:screenOrientation="portrait"

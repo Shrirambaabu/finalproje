@@ -219,5 +219,6 @@
     <string name="fatal_injury">Fatal Injury</string>
     <string name="cherry_def">A cherry picker is a hydraulic crane with a raised platform at the end for raising and lowering people. Cherry Picker is a movable vertical boom with an open bucket at the end from which a worker can perform aerial work.</string>
     <string name="h_p_water_blasting">A ballast tank is a compartment within a boat, ship or other floating structure that holds water, which is used as ballast to provide stability for a vessel.</string>
+    <string name="h_p_shipyard_def">High-pressure washing refers to a high-pressure washing system capable of generating a pressure of 5,000 pounds per square inch (psi) or more that use a high-velocity stream of water to blast through materials, such as residue that collects inside pipes or vessels</string>
 
 </resources>

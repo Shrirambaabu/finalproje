@@ -16,6 +16,7 @@ import com.project.finalyear.activity.blasting.autoblasting.AutoBlastingActivity
 import com.project.finalyear.activity.blasting.cherrypicker.CherryPickerActivity;
 import com.project.finalyear.activity.blasting.forklift.ForkliftActivity;
 import com.project.finalyear.activity.blasting.gritblasting.GritBlastingActivity;
+import com.project.finalyear.activity.blasting.highpressureship.HighPressureShipyardActivity;
 import com.project.finalyear.activity.blasting.highpressurewater.HighPressureWaterActivity;
 import com.project.finalyear.activity.blasting.hydroblasting.HydroBlastingActivity;
 import com.project.finalyear.activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity;
@@ -188,10 +189,10 @@ public class BlastingHomeActivity extends AppCompatActivity {
     @OnClick(R.id.high_pressure_ship_card)
     public void highPressureShip() {
 
-      /*  Intent intent = new Intent(getApplicationContext(), GritBlastingActivity.class);
+        Intent intent = new Intent(getApplicationContext(), HighPressureShipyardActivity.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);*/
-        showAlertBox();
+        overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right);
+
 
     }
 
