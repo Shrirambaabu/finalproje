@@ -67,14 +67,25 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="ensure that cables/lighting are in good working condition"
+                            android:text="Cordon off the area and proper PPE"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="brief on MSDS"
                             android:textSize="16sp" />
 
                     </LinearLayout>
 
 
                 </android.support.v7.widget.CardView>
-
 
                 <Button
                     android:id="@+id/button"
@@ -86,7 +97,7 @@
                     android:layout_marginEnd="72dp"
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/button_bg"
-                    android:text="Back to Hydro Blasting"
+                    android:text="Back to Workshop Maintenance"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white" />
 

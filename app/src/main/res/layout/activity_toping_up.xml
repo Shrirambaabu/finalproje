@@ -67,31 +67,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/struck_onto_object_people"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:drawableLeft="@drawable/ic_star_black_24dp"
-                            android:drawablePadding="8dp"
-                            android:drawableTint="@color/colorDeepBlue"
-                            android:paddingStart="24dp"
-                            android:paddingTop="4dp"
-                            android:text="@string/load_falling_off_forks"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:drawableLeft="@drawable/ic_star_black_24dp"
-                            android:drawablePadding="8dp"
-                            android:drawableTint="@color/colorDeepBlue"
-                            android:paddingStart="24dp"
-                            android:paddingTop="4dp"
-                            android:text="@string/overloading"
+                            android:text="Fire / explosion"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -142,20 +118,9 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/bodily_injury"
+                            android:text="@string/fatal_injury"
                             android:textSize="16sp" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:drawableLeft="@drawable/ic_star_black_24dp"
-                            android:drawablePadding="8dp"
-                            android:drawableTint="@color/colorDeepBlue"
-                            android:paddingStart="24dp"
-                            android:paddingTop="4dp"
-                            android:text="@string/major_injury"
-                            android:textSize="16sp" />
 
                     </LinearLayout>
 

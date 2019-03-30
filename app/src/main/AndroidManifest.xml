@@ -12,23 +12,116 @@
         android:roundIcon="@drawable/ic_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.OperationMeasureActivity"></activity>
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.OperarationTestActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.PressureTestingMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.PressureTestingActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ToppingupMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.TopingUpActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.HotworkMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.HotworkActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ChemicalCleaningMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ChemicalCleaningActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.AssembleMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.AssembleActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ElectricalSupplyMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ElectricalPowerSupplyActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.controlmeasure.ConnectionDisconnectionMeasureActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.hazards.ConnectionDisconnectionActivity" />
-        <activity android:name=".activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity" />
+        <activity
+            android:name=".activity.blasting.cherrypicker.controlmeasure.DrivingMeasureActivity"
+            android:label="Cherry Picker Operation"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.cherrypicker.controlmeasure.PerformingMeasureActivity"
+            android:label="Cherry Picker Operation"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.cherrypicker.hazards.DrivingOperationActivity"
+            android:label="Cherry Picker Operation"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.cherrypicker.hazards.PerformingOperationActivity"
+            android:label="Cherry Picker Operation"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.cherrypicker.CherryPickerActivity"
+            android:label="Cherry Picker Operation"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.OperationMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.OperarationTestActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.PressureTestingMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.PressureTestingActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.ToppingupMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.TopingUpActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.HotworkMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.HotworkActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.ChemicalCleaningMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.ChemicalCleaningActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.AssembleMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.AssembleActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.ElectricalSupplyMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.ElectricalPowerSupplyActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.controlmeasure.ConnectionDisconnectionMeasureActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.hazards.ConnectionDisconnectionActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.blasting.workshopmaintenance.WorkshopMaintenanceActivity"
+            android:label="Workshop Maintenance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".activity.blasting.forklift.controlmeasure.TravelMeasureActivity"
             android:label="Forklifting"

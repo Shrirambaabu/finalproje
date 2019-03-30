@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -67,7 +66,92 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/improper_condition"
+                            android:text="Struck by hammer"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Slippery floor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Caught between objects "
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Hot exhaust manifold and radiator water "
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Body exposed to heavy machinery parts"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Defective lifting equipment "
+                            android:textSize="16sp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Struck by object"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Carrying machine parts"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -119,6 +203,19 @@
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
                             android:text="@string/bodily_injury"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="@string/major_injury"
                             android:textSize="16sp" />
 
 

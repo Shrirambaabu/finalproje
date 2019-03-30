@@ -67,7 +67,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/struck_onto_object_people"
+                            android:text="worker not suitable for the job "
                             android:textSize="16sp" />
 
                         <TextView
@@ -79,7 +79,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/load_falling_off_forks"
+                            android:text="defective tools"
                             android:textSize="16sp" />
 
                         <TextView
@@ -91,7 +91,31 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/overloading"
+                            android:text="burns and cuts"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Fire hazards "
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Shattered grinding disc"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -143,18 +167,6 @@
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
                             android:text="@string/bodily_injury"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:drawableLeft="@drawable/ic_star_black_24dp"
-                            android:drawablePadding="8dp"
-                            android:drawableTint="@color/colorDeepBlue"
-                            android:paddingStart="24dp"
-                            android:paddingTop="4dp"
-                            android:text="@string/major_injury"
                             android:textSize="16sp" />
 
                     </LinearLayout>

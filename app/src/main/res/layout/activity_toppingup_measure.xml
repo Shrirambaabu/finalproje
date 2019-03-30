@@ -67,8 +67,33 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="ensure that cables/lighting are in good working condition"
+                            android:text="Endure no hotwork at the surrounding"
                             android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Clean up over spilled immediately"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Ensure MSDS is in place "
+                            android:textSize="16sp" />
+
 
                     </LinearLayout>
 
@@ -86,7 +111,7 @@
                     android:layout_marginEnd="72dp"
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/button_bg"
-                    android:text="Back to Hydro Blasting"
+                    android:text="Back to Workshop Maintenance"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white" />
 

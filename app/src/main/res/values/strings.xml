@@ -216,5 +216,7 @@
     <string name="improper_condition">Improper condition</string>
     <string name="lock_out_and_tag_out_system">Lock out and tag out system</string>
     <string name="only_qualified_electrician_to_be_assigned_on_the_job">Only qualified electrician to be assigned on the job</string>
+    <string name="fatal_injury">Fatal Injury</string>
+    <string name="cherry_def">A cherry picker is a hydraulic crane with a raised platform at the end for raising and lowering people. Cherry Picker is a movable vertical boom with an open bucket at the end from which a worker can perform aerial work.</string>
 
 </resources>

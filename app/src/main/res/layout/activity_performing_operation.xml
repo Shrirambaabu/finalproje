@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.blasting.workshopmaintenance.hazards.OperarationTestActivity">
+    tools:context=".activity.blasting.cherrypicker.hazards.PerformingOperationActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="Electrocution "
+                            android:text="Unauthorized cherry picker driver"
                             android:textSize="16sp" />
 
                         <TextView
@@ -79,7 +79,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="Other activities at surrounding areas"
+                            android:text="Moving vehicle in the surrounding area"
                             android:textSize="16sp" />
 
                         <TextView
@@ -91,7 +91,19 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="Sudden burst / leakage  of  tubes, pipes etc "
+                            android:text="Rotating machinery parts of the cherry picker"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="slippery platform"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -142,7 +154,7 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/bodily_injury"
+                            android:text="Incapability and handling the cherry picker"
                             android:textSize="16sp" />
 
                         <TextView
@@ -154,8 +166,34 @@
                             android:drawableTint="@color/colorDeepBlue"
                             android:paddingStart="24dp"
                             android:paddingTop="4dp"
-                            android:text="@string/fatal"
+                            android:text="Hit by the other moving vehicle"
                             android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="Caught in rotating parts"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableLeft="@drawable/ic_star_black_24dp"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/colorDeepBlue"
+                            android:paddingStart="24dp"
+                            android:paddingTop="4dp"
+                            android:text="slip and fall"
+                            android:textSize="16sp" />
+
 
                     </LinearLayout>
 
